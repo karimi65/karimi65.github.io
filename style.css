@@ -49,6 +49,7 @@ background-size: cover;
 footer {
    position: fixed;
    bottom: 0;
+   background-color: rgb(88, 194, 176);;
 }
 
 #name {
