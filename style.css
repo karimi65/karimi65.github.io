@@ -21,7 +21,7 @@ a:hover {
                  /* for contact page */
 
 #connect {
-background-image: url(assets/Images/bgcnt.jpg);
+background-image: url(assets/images/bgcnt.jpg);
 background-size: cover; 
 }
 
@@ -42,7 +42,7 @@ background-size: cover;
                    /* for About page */
 
 #about {
-background-image: url(assets/Images/bgab.jpg);
+background-image: url(assets/images/bgab.jpg);
 background-size: cover;
 }
 
@@ -67,7 +67,7 @@ footer {
                   /* for Portfolio */
 
 #my-works {
-    background-image: url(assets/Images/bgprt.jpg);
+    background-image: url(assets/images/bgprt.jpg);
 background-size: cover; 
 }
 
