@@ -33,6 +33,7 @@ background-size: cover;
 }
 
 
+
 @media screen and (max-width:460px) {
     #pic{
         display: none;
