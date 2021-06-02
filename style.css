@@ -86,3 +86,10 @@ background-size: cover;
     padding: 0.85em 0.4em;
 }
 
+.fa-html5 {
+    color: orangered
+}
+
+.fa-css3 {
+    color:lightskyblue
+}
