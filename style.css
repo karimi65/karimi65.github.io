@@ -1,9 +1,80 @@
-h2, h3 {
+/* * {
+  border: thin red solid;
+} */
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fef6e4;
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+}
+
+.name {
+  color: #001858;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a {
+  color: #001858;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #8bd3dd;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.link a {
+  color: #0d0d0d;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+/* h2, h3 { 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-                 /* styles for navbar */
+                 
 
 #brand {
     font-family: 'Faster One', cursive;
@@ -18,7 +89,6 @@ a:hover {
     background-color: rgba(0, 0, 0, .1);
 }
 
-                 /* for contact page */
 
 #connect {
 background-image: url(assets/images/bgcnt.jpg);
@@ -40,7 +110,7 @@ background-size: cover;
     }
 }
 
-                   /* for About page */
+                  
 
 #about {
 background-image: url(assets/images/bgab.jpg);
@@ -65,7 +135,7 @@ footer {
     margin-top: 15px;
 }
 
-                  /* for Portfolio */
+                 
 
 #my-works {
     background-image: url(assets/images/bgprt.jpg);
@@ -93,3 +163,4 @@ background-size: cover;
 .fa-css3 {
     color:lightskyblue
 }
+*/
