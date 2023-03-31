@@ -31,13 +31,15 @@ body {
   border-radius: 128px;
 }
 
-.name {
+.name,
+span {
   color: #001858;
   display: flex;
   justify-content: center;
 }
 
-.social-icons {
+.social-icons,
+.skill-icons {
   display: flex;
   justify-content: space-around;
 }
@@ -68,89 +70,3 @@ body {
   border-radius: 48px;
   object-fit: cover;
 }
-
-/*
-h2,
-h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-#brand {
-  font-family: "Faster One", cursive;
-  font-size: 28px;
-}
-
-a:hover {
-  background-color: rgb(88, 194, 176);
-}
-.active {
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-#connect {
-  background-image: url(assets/images/bgcnt.jpg);
-  background-size: cover;
-}
-
-.contact {
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  margin-top: 100px;
-  padding: 20px;
-}
-
-@media screen and (max-width: 460px) {
-  #pic {
-    display: none;
-  }
-}
-
-#about {
-  background-image: url(assets/images/bgab.jpg);
-  background-size: cover;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  background-color: rgb(88, 194, 176);
-}
-
-#name {
-  font-weight: bold;
-  font-style: italic;
-  font-family: "Times New Roman", Times, sans-serif;
-  font-size: 18px;
-}
-
-#me {
-  border-radius: 300px;
-  margin-top: 15px;
-}
-
-#my-works {
-  background-image: url(assets/images/bgprt.jpg);
-  background-size: cover;
-}
-
-.card {
-  box-shadow: 0 0 10px 2px;
-}
-
-.projects {
-  background-color: #f6f3e4;
-}
-
-.badge {
-  padding: 0.85em 0.4em;
-}
-
-.fa-html5 {
-  color: orangered;
-}
-
-.fa-css3 {
-  color: lightskyblue;
-}
-*/
